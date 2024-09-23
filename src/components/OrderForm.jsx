@@ -71,13 +71,13 @@ const OrderForm = () => {
         <label className="block font-medium mb-2">Productos:</label>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
           {products.map((product) => (
-            <div key={product.id} className="border rounded-lg p-4 flex justify-between items-center">
+            <div key={product.id} className="border rounded-lg p-2 flex justify-between items-center">
               <label className="flex items-center">
                 <input
                   type="checkbox"
                   value={product.id}
                   onChange={(e) => handleProductSelection(e, product.id)}
-                  className="mr-3"
+                  className="mr-2"
                 />
                 {product.name}
               </label>

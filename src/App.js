@@ -20,7 +20,6 @@ function App() {
           <ProductList />
         </div>
       </div>
-
     </div>
   );
 }
